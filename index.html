@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="C:\Users\joelw\OneDrive\Рабочий стол\toDoList\styles.css" />
+        <title>To do list</title>
+    </head>
+    <body>
+        <header id="header">
+            <h1>myToDoList</h1>
+            <div class="btnpanel">
+                <button id="addtask" type="button">&#x002B;</button>
+                <button id="deliteChecked" type="button">Delite Checked Tasks</button>
+                <button id="deliteAll" type="button">Delite All Tasks</button>
+                <label class="nightMode">
+                    <input type="checkbox" id="darkMode" />
+                    <span class="slider round"></span>
+                </label>
+                <button id="orangeMode" class="colorbtn" type="button"></button>
+                <button id="pinkMode" class="colorbtn" type="button"></button>
+                <button id="lavenderMode" class="colorbtn" type="button"></button>
+                <button id="blueMode" class="colorbtn" type="button"></button>
+                <button id="greenMode" class="colorbtn" type="button"></button>
+                <button id="yellowMode" class="colorbtn" type="button"></button>
+                <button id="originalMode" class="colorbtn chosen" type="button"></button>
+            </div>
+        </header>
+        <main id="tasks">
+            <div class="task zero">
+                <span class="tasknumber">0</span>
+                <span class="textarea" role="textbox" contenteditable></span>
+                <div class="blank">
+                    <label class="checkbox">
+                        <input class="checkInput" type = "checkbox" />
+                        <div class="check"></div>
+                    </label>
+                </div>
+                <button class="trash" type="button">&#x1F5D1;</button>
+            </div> 
+        </main>   
+        <script src="C:\Users\joelw\OneDrive\Рабочий стол\toDoList\script.js"></script>
+    </body>
+</html>
